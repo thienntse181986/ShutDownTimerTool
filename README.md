@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Shutdown Timer - Build & Distribution
 
 This project is a small Windows utility to schedule shutdown/restart/logoff. Below are steps to build and package the app to share with friends.
@@ -56,3 +57,7 @@ If you want, I can also:
 - Build a zip distribution (exe + README) and prepare an installer on this machine.
 - Add a dry-run mode and a confirmation dialog before executing shutdown commands.
 - Sign the executable (requires a code-signing certificate).
+=======
+# ShutDownTimerTool
+Shut Down Timer Tool
+>>>>>>> e676e0f47cfd820e351f175141450004c8de4dc3
