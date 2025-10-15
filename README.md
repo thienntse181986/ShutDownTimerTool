@@ -56,6 +56,16 @@ If you want, I can also:
 - Build a zip distribution (exe + README) and prepare an installer on this machine.
 - Add a dry-run mode and a confirmation dialog before executing shutdown commands.
 - Sign the executable (requires a code-signing certificate).
+
+Quick build (one-liner)
+-----------------------
+If you just want to build the program quickly from PowerShell (uses the repo's venv and the provided build script), run this one-liner from the project root:
+
+```powershell
+& .\.venv\Scripts\Activate.ps1; .\build.ps1
+```
+
+After it finishes the built executable will be at `dist\ShutdownTimer.exe`.
 =======
 # ShutDownTimerTool
 Shut Down Timer Tool
